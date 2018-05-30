@@ -1,0 +1,8 @@
+<h1><%=@note.id%> 번째 글 입니다.</h1>
+<hr>
+<p>제목: <%=@note.title%></p>
+<p>내용: <%=@note.content%></p>
+<br>
+<a href = '/notes'>[목록]</a>
+<a href = '/notes/<%=@note.id%>/destroy'>[삭제]</a>
+<a href = '/notes/<%=@note.id%>/edit'>[수정]</a>
